@@ -48,34 +48,34 @@ In summary, the web scraper allows users to input multiple links, fetch and disp
   
 
 
-2. Copy the Script:
+2. **Copy the Script:**
 Copy the provided Python script into a new or existing Python file (e.g., web_scraper.py).
 
-3. Run the Script:
+3. **Run the Script:**
 Execute the script using a Python interpreter. This can be done by navigating to the script's directory in the terminal and running:
 
 ```bash
 python web_scraper.py
 ```
-4. GUI Interface:
+4. **GUI Interface:**
 A GUI window will open with a text field for entering website links, a "Scrape" button, and an output area to display the results.
 
-5. Input Website Links:
+5. **Input Website Links:**
 Enter the URLs of the websites you want to scrape into the text field, with one link per line.
 
-Click "Scrape":
+6. **Click "Scrape":**
 Click the "Scrape" button to initiate the scraping process. The script will send requests to each provided link and display the extracted data in the output area.
 
-6. View Extracted Data:
+7. **View Extracted Data:**
 The extracted product data, including title, reviews, and price, will be displayed in the GUI in real time. Any errors encountered during the process will also be shown.
 
-7. Check Excel Output:
+8. **Check Excel Output:**
 After the scraping process is complete, check the script's output in the terminal for a message indicating that the data has been written to an Excel file ("scraped_data.xlsx").
 
-Review Excel File:
+9. **Review Excel File:**
 Open the generated "scraped_data.xlsx" Excel file to review and analyze the compiled data.
 
-Troubleshooting:
+10. **Troubleshooting:**
 If you encounter any issues during setup or usage, refer to the error messages displayed in the GUI and the debugging information provided in the script.
 
 Note: Ensure that you have an active internet connection, as the script relies on sending HTTP requests to retrieve web page content. Additionally, be aware of website scraping policies and comply with terms of service for the websites you intend to scrape.
